@@ -1,0 +1,401 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/* Apply font-family globally */
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box; /* Ensure padding and borders are included in element's width and height */
+}
+
+/* Basic body styling */
+body {
+    background-color: #cdcdcd;
+    text-transform: capitalize;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header styling */
+.header .navbar {
+    background-color: white;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.header .navbar .fa-bag-shopping {
+    color: orange;
+    font-size: 25px;
+}
+
+.header .navbar i span {
+    color: black;
+}
+
+.header .navbar .navm {
+    display: flex;
+    gap: 80px;
+    cursor: pointer;
+}
+
+.header .navbar .navm a {
+    color: black;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+
+.header .navbar .navm a:hover {
+    color: orange;
+}
+
+.header .navbar .navl {
+    display: flex;
+    gap: 30px;
+}
+
+.header .navbar .navl i {
+    color: black;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.header .navbar .navl i:hover {
+    color: orange;
+}
+
+/* Hero image styling */
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px ;
+}
+
+
+.features {
+    padding-top: 2px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    background-color: #cdcdcd; 
+}
+
+.features h5{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.features h5 span{
+    color: orange;
+    margin-left: 4px;
+}
+
+/* Container for the boxes */
+.boxes {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly; 
+    align-items: stretch;  
+    height: 410px;
+    
+}
+
+ 
+.box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;  
+    padding: 20px; 
+    border: 1px solid #ddd;  
+    background-color: white;
+    border-radius: 8px;  
+    text-align: center;  
+    display: flex;
+    flex-direction: column;   
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box; 
+}
+
+ 
+.box-image {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 15px; 
+}
+
+
+h3 {
+    margin: 10px 0; 
+}
+
+ 
+p {
+    margin: 10px 0;
+    font-size: 12px; 
+}
+
+ 
+button {
+    font-size: 15px;
+    border: solid 1.5px black;
+    background-color: white;  
+    color: black;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: ease 0.3s;
+}
+
+button:hover {
+    background-color: orange;  
+    
+}
+
+
+.categories{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    background-color: #cdcdcd; 
+}
+
+.categories h5{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.categories h5 span{
+    color: orange;
+    margin-left: 4px;
+}
+
+.products{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    background-color: #cdcdcd; 
+}
+
+.products h5{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.products h5 span{
+    color: orange;
+    margin-left: 4px;
+}
+
+.footer {
+    background-color: grey;
+    padding: 20px;
+}
+
+.footer .webinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .webinfo .brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.footer .webinfo .brand .webcon {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 95px;
+}
+
+.footer .webinfo .brand .webcon i {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footer .webinfo .brand .fa-bag-shopping{
+    color: orange;
+}
+
+.footer .webinfo .brand span{
+    color: white;
+}
+
+.footer .webinfo .brand .webcon i:hover {
+    color: orange;
+}
+
+.footer .webinfo .contact {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.footer .webinfo .contact .contactus {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer .webinfo .contact .footcon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    gap: 10px; 
+}
+
+.footer .webinfo .contact .footcon span{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.footer .webinfo .contact .footcon .s3{
+    margin-right: 10px;
+}
+
+
+.footer .webinfo .contact .footcon .footitem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .webinfo .contact .footcon .footitem i {
+    font-size: 16px;
+}
+
+.footer .webinfo .links {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer .webinfo .links .q {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer .webinfo .links .link {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer .webinfo .links .link a {
+    color: white;
+    text-decoration: none;
+    font-size: 14.5px;
+}
+
+.footer .webinfo .links .link a:hover {
+    color: orange;
+}
+
+.footer .devinfo span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+.footer .devinfo .s1{
+    color: orange;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-image:url(https://img.freepik.com/free-photo/flat-lay-vegetables-frame_23-2148516769.jpg?w=1380&t=st=1721821477~exp=1721822077~hmac=d6747bced842d8d3602ef6a879a6be9975d56d757d0cd6d2a41a5d0e7dfc7c67)
+}
+.loginheader{
+    background-color: transparent;
+    color: rgb(80, 12, 12);
+    width: 420px;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 40px;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    position: relative;
+   background:transparent;
+    margin: 30px 0;
+   
+    
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    font-size: 18px;
+    border: 2px solid rgba(77, 15, 15, 0.985);
+    
+}
+.input-box input::placeholder{
+    color: rgb(130, 23, 23);
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color: brown;
+}
+.wrapper .forgot{
+    display: flex;
+    justify-content: center;
+}
+.wrapper .forgot a{
+    color: white;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.wrapper .register-link{
+    font-size: 14px;
+    text-align: center;
+}
+.register-link p a{
+    color: white;
+    font-weight: 800;
+
+}
+.register-link p a:hover{
+    text-decoration: dotted;
+}

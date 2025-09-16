@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh-mart payment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b24deb18d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="payment">
+        <h3>Payment</h3>
+        <div class="payment-d">
+            <input id="address" type="text" placeholder="Enter your Delivery address" name="address">
+        </div>
+        <div class="payment-methods">
+            <h2>Payment Modes</h2>
+            <input type="radio" value="payment" name="payment-methods"> Cash On Delivery
+            <input type="radio" value="payment" name="payment-methods"> UPI
+            <input type="radio" value="payment" name="payment-methods"> Card
+        </div>
+        <div class="card-details">
+            <h2>Card Details</h2>
+            <input type="text" placeholder="Card Number" name="card-details" id="cn">
+            Expiry-Date
+            <input type="date" name="card-details" id="cd">
+            <input type="text" name="card-details" placeholder="CVV" id="cv">
+            <button id="place-order" class="button" onclick="window.location.href='placedorder.html'">Place Order</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
